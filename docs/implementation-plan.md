@@ -1,6 +1,6 @@
 # Duelo en la cripta — plan vivo
 
-Propósito: autorizaciones, estado de hitos y cierres de `projects/juego-cartas/`. Revisión: 2026-11-07. Formato compacto según el [workflow v1.2](../../../docs/factory/workflow-v1.md#token-efficiency-v12). Reglas e invariantes: [decisions.md](decisions.md). Evidencia detallada anterior: [plan archivado hasta M3](history/implementation-plan-2026-11-07.md) y [registro M0–M3](history/migracion-v04b-m0-m3.md).
+Propósito: autorizaciones, estado de hitos y cierres de `projects/juego-cartas/`. Revisión: 2026-11-07. Formato compacto según el workflow v1.2 de la Game Factory (sección *Token efficiency*). Reglas e invariantes: [decisions.md](decisions.md). Evidencia detallada anterior: [plan archivado hasta M3](history/implementation-plan-2026-11-07.md) y [registro M0–M3](history/migracion-v04b-m0-m3.md).
 
 ## Estado actual
 
@@ -37,7 +37,7 @@ Propósito: autorizaciones, estado de hitos y cierres de `projects/juego-cartas/
 
 ## Registro de la siguiente intervención
 
-Usar la [plantilla de hito](../../../docs/factory/templates/milestone-record.md). Al cerrar, dejar aquí una fila de cierre y un resumen de 5–10 líneas; mover la evidencia detallada a `history/` y llevar a [decisions.md](decisions.md) toda decisión o pendiente nuevo.
+Usar la plantilla de hito de la Game Factory (`docs/factory/templates/milestone-record.md` en el repo de la factory). Al cerrar, dejar aquí una fila de cierre y un resumen de 5–10 líneas; mover la evidencia detallada a `history/` y llevar a [decisions.md](decisions.md) toda decisión o pendiente nuevo.
 
 ## V0.4B M4 — diez encuentros aislados e IA nivel 1 (cerrado 2026-11-08)
 

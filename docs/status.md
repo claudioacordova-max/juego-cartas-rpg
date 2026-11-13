@@ -12,6 +12,7 @@ Lectura mínima para retomar trabajo (workflow v1.2): esta ficha → [decisions.
 | Siguiente hito | Ninguno autorizado. Candidato: balance ([balance-m8c.md](balance-m8c.md)) |
 | Decisiones abiertas | Zona de 03/10 provisional; «Mazo exhausto» y «Rendirse» implementados como experimentales (M8a). Ver [decisions.md](decisions.md#4-pendientes-abiertos-requieren-decisión-del-diseñador-antes-de-implementar) |
 | Juego activo | Expedición V0.4B (único juego; el legado se retiró en LEG-1, recuperable en `047581b`) |
+| Repositorio | Repo Git propio desde SEP-1 (2026-11-13), con el historial extraído del repo `game-factory`. Los hashes citados con fecha anterior son de ese repo; aquí el mismo commit tiene otro hash (buscar por mensaje con `git log --grep`). Despliegue: `npm run build` genera `dist/` estático, sin dependencias de la factory |
 | Comprobaciones | `npm test` (359/359 + spatial al cierre UI-2; balance: `node .test-dist/tests/balanceRun.js [--what-if]` tras compilar tests) y `npm run build` desde `projects/juego-cartas/` |
 | Incidencias conocidas | Onda de scroll en Colección, diferida sin autorización |
 
